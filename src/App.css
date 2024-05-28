@@ -1,0 +1,36 @@
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.Card {
+  margin: 20px;
+  width: 300px;
+  border: 1px solid #d9d9d9;
+}
+
+.Card:hover {
+  border: 1px solid #1890ff;
+}
+
+.Card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.Card-meta-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.Card-meta-description {
+  font-size: 14px;
+  color: #555;
+}
+
+.Button {
+  margin-top: 10px;
+}
